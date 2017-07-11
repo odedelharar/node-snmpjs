@@ -15,13 +15,13 @@
 		"node": ">=0.6.9"
 	},
 	"dependencies": {
-		"jison": "0.3",
-		"asn1": "~0.2.2",
-		"bunyan": "~0.21",
-		"dtrace-provider": "~0.4"
+		"jison": "0.4.17",
+		"asn1": "~0.2.3",
+		"bunyan": "1.5.1",
+		"dtrace-provider": "0.8.3"
 	},
 	"devDependencies": {
-		"tap": "~0.4"
+		"tap": "~10.7.0"
 	},
 	"scripts": {
 		"install": "jison -o lib/parser.js lib/snmp.jison",
